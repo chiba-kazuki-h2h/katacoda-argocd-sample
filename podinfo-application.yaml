@@ -15,6 +15,7 @@ spec:
       selfHeal: true
       allowEmpty: false
   source:
+    # helmチャートレジストリの場所。helmチャートレジストリの中にさらにコンテナレジストリの情報が入っている(values.yamlのimage.repojitory属性)。
     repoURL: https://stefanprodan.github.io/podinfo
     targetRevision: 5.2.1
     chart: podinfo
